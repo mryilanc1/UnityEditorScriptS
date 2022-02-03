@@ -1,4 +1,4 @@
-# UnityEditorScriptS
+# Unity Editor Scripts
 
 ## 1)MultiplePrefab script creates multiple prefab by Multiple Prefab Creator  
 
@@ -13,4 +13,4 @@ https://youtu.be/dUOLEF-7jNM
 
 ## 2)Alpha_Editor script change Image's alpha of selected  on Window or by Shotcut...
 
-![image](https://user-images.githubusercontent.com/41707639/152435052-5c35d397-7703-4d7c-8ba7-f5ec83a16422.png)
+![image](https://user-images.githubusercontent.com/41707639/152435413-232e2a30-a872-4c57-8a4b-6d1a3ee5ce8b.png)
