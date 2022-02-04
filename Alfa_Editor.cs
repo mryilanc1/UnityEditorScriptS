@@ -26,7 +26,7 @@ public class Alfa_Editor : EditorWindow
     static void ramo()
     {
 
-        Alfa_Editor window = (Alfa_Editor)EditorWindow.GetWindow(typeof(Alfa_Editor), true, "Multiple Prefab Creator Window");
+        Alfa_Editor window = (Alfa_Editor)EditorWindow.GetWindow(typeof(Alfa_Editor), true, "Alpha Editor Window");
 
         window.Show();
 
