@@ -9,7 +9,7 @@ Use it to create Prefab or prefabs  from the selected GameObject(s).
 It will be placed in you want which folder.... you have to write it's name to "Folder name" at Multiple Prefab Creator Window
 
 
-###Technical details
+### Technical details
 
 if you selected gameobjects and you  want to shortcut for create to prefabs you can use Ctrl+Shift+Alt+P .... This shortcut  direct create prefabs
 
