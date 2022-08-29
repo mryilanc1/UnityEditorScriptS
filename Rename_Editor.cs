@@ -13,7 +13,7 @@ public class Rename_Editor : EditorWindow
     static string location = "";
     static string localPath;
     private static string guide = "Select GameObjects";
-    public  Transform[] objectArray;
+    public static Transform[] objectArray;
     private static Vector2 _windowsMinSize = Vector2.one * 500f;
     private static Rect _helpRect = new Rect(0f, 0f, 400f, 100f);
     private static Rect _listRect = new Rect(Vector2.zero, _windowsMinSize);
@@ -68,7 +68,7 @@ public class Rename_Editor : EditorWindow
 
 
     [MenuItem("Rename/Rename Fast")]
-     void Rename()
+     public static void Rename()
     {
         // Keep track of the currently selected GameObject(s)
         objectArray = Selection.transforms;
@@ -80,7 +80,7 @@ public class Rename_Editor : EditorWindow
         {
 
 
-            GameObject.transform.name = location + n;
+            GameObject.transform.name = location +"_"+ n;
             n++;
             
             Debug.Log(GameObject.name);
