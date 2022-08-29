@@ -31,3 +31,11 @@ https://youtu.be/dUOLEF-7jNM
 ## 2)Alpha_Editor script change Image's alpha of selected  on Window or by Shotcut...
 
 ![image](https://user-images.githubusercontent.com/41707639/152435413-232e2a30-a872-4c57-8a4b-6d1a3ee5ce8b.png)
+
+
+
+## 3)Multiple Rename Editor
+
+I coded an editor to easily edit the names of objects in scenes with a lot of different objects.
+
+![image](https://user-images.githubusercontent.com/41707639/152435413-232e2a30-a872-4c57-8a4b-6d1a3ee5ce8b.png)
