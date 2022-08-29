@@ -38,4 +38,4 @@ https://youtu.be/dUOLEF-7jNM
 
 I coded an editor to easily edit the names of objects in scenes with a lot of different objects.
 
-![image](https://user-images.githubusercontent.com/41707639/152435413-232e2a30-a872-4c57-8a4b-6d1a3ee5ce8b.png)
+![vlcsnap-2022-08-29-23h11m51s195](https://user-images.githubusercontent.com/41707639/187289508-4e995e30-af4b-4813-a63e-07e2307d7883.png)
