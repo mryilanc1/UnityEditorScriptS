@@ -1,3 +1,8 @@
+//// This Code Checks if Pivot is at geometric center
+/// mr.yilanci
+
+
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -26,12 +31,11 @@ public class MeshPivotChecker : EditorWindow
                 MeshFilter meshFilter = obj.GetComponent<MeshFilter>();
                 
                 Bounds bounds = obj.GetComponent<MeshRenderer>().bounds;
-                Vector3 center = bounds.center;
+                Vector3 geometricCenter = bounds.center;
                 Vector3 size = bounds.size;
                 
-                if (meshFilter != null && meshFilter.sharedMesh != null && !meshFilter.transform.name.Contains("JumpPoint") && !meshFilter.transform.name.Contains("NAVMESH")) 
+                if (meshFilter != null && meshFilter.sharedMesh != null ) 
                 {
-                    Vector3 geometricCenter = center ;
                     Vector3 pivot = obj.transform.position;
 
                     float distanceX = Mathf.Abs(pivot.x - geometricCenter.x);
@@ -40,7 +44,7 @@ public class MeshPivotChecker : EditorWindow
 
                     if (distanceX > threshold || distanceY > threshold || distanceZ > threshold)
                     { 
-                        Debug.Log(  $"Parent::{obj.transform.parent.parent.name } --- sorunlu:  {obj.name}  Mesh pivot is not at the geometric center.");
+                        Debug.Log(  $"Parent::{obj.transform.parent.name } --- sorunlu:  {obj.name}  Mesh pivot is not at the geometric center.");
                        PivotProblemList.Add(obj);
                         
                     }
@@ -60,18 +64,5 @@ public class MeshPivotChecker : EditorWindow
         
     }
 
-    private Vector3 GetGeometricCenter(Mesh mesh)
-    {
-        Vector3[] vertices = mesh.vertices;
-        Vector3 center = Vector3.zero;
-
-        for (int i = 0; i < vertices.Length; i++)
-        {
-            center += vertices[i];
-        }
-
-        center /= vertices.Length;
-
-        return center;
-    }
+   
 }
