@@ -44,3 +44,9 @@ https://youtu.be/dUOLEF-7jNM
 I coded an editor to easily edit the names of objects in scenes with a lot of different objects.
 
 ![vlcsnap-2022-08-29-23h11m51s195](https://user-images.githubusercontent.com/41707639/187289508-4e995e30-af4b-4813-a63e-07e2307d7883.png)
+
+
+
+## 3Mesh Pivot Checker
+This Code checks if pivot and geometric center at same place 
+![image](https://github.com/mryilanc1/UnityEditorScriptS/assets/41707639/875ae055-c346-4852-8e9f-e7617ad03c6f)
