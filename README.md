@@ -5,7 +5,7 @@ You can watch how the editors work on my youtube channel.
 https://www.youtube.com/channel/UC24cYXoYowcSJxiTuRbLJZg
 
 
-## 1)MultiplePrefab script creates multiple prefab by Multiple Prefab Creator  
+## 1) MultiplePrefab script creates multiple prefab by Multiple Prefab Creator  
 
 This editor creates multiple prefab by Multiple Prefab Creator  .
 
@@ -33,13 +33,13 @@ https://youtu.be/dUOLEF-7jNM
 
 
 
-## 2)Alpha_Editor script change Image's alpha of selected  on Window or by Shotcut...
+## 2) Alpha_Editor script change Image's alpha of selected  on Window or by Shotcut...
 
 ![image](https://user-images.githubusercontent.com/41707639/152435413-232e2a30-a872-4c57-8a4b-6d1a3ee5ce8b.png)
 
 
 
-## 3)Multiple Rename Editor
+## 3) Multiple Rename Editor
 
 I coded an editor to easily edit the names of objects in scenes with a lot of different objects.
 
@@ -47,6 +47,6 @@ I coded an editor to easily edit the names of objects in scenes with a lot of di
 
 
 
-## 3Mesh Pivot Checker
+## 4) Mesh Pivot Checker
 This Code checks if pivot and geometric center at same place 
 ![image](https://github.com/mryilanc1/UnityEditorScriptS/assets/41707639/875ae055-c346-4852-8e9f-e7617ad03c6f)
